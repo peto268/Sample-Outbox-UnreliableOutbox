@@ -8,3 +8,7 @@ public record RegistrationSubmitted
     public string EventId { get; init; } = null!;
     public decimal Payment { get; init; }
 }
+
+public record Request(decimal Payment);
+
+public record Response;
